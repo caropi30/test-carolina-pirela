@@ -1,0 +1,18 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "jsx": "react",
+    "strict": false,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "src/container/Products.js", "src/container/ProductDetailScreen.js", "src/container/LoginScreen.js", "src/navigation/index.js", "src/services/postUserData.js", "src/services/getProducts.js", "app/index.js"  ]
+}
