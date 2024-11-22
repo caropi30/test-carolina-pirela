@@ -1,19 +1,22 @@
-# Welcome to your Expo app 👋
+# Hola!!!  👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este es un proyecto [Expo](https://expo.dev) levantado con  [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
-
-1. Install dependencies
+## Para iniciar
+1. Debes instalar las dependencias, puedes utilizar tu favorito npm, yarn o el que más te convenga. 
 
    ```bash
    npm install
    ```
 
-2. Start the app
+   ```bash
+   yarn install
+   ```
+
+2. Para lanzar la aplicación debes ejecutar "start" y elegir la opción que más te convenga, ya sea por simulador ios, emulador android o web view.
 
    ```bash
-    npx expo start
+    yarn start
    ```
 
 In the output, you'll find options to open the app in a
@@ -27,24 +30,12 @@ You can start developing by editing the files inside the **app** directory. This
 
 ## Get a fresh project
 
-When you're ready, run:
+## Dependencias
 
-```bash
-npm run reset-project
-```
+Para el desarrollo de este proyecto se tomaron en consideración las siguientes herramientas: 
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [React Native](https://reactnative.dev/)
+- [Expo on GitHub](https://github.com/expo/expo): plataforma open-source para levantar proyectos en React Native
+- [React Query](https://tanstack.com/query/v3/): para el manejo de comunicación con APIs
+- [React Navigation](https://reactnavigation.org/docs/hello-react-navigation/): ruteo de pantallas.
+- [Zustand](https://zustand-demo.pmnd.rs/): manejo de estadps.
